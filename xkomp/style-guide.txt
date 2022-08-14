@@ -1,0 +1,4 @@
+color-header f4f4f4 to c2c2c2
+logo text Tw Cen MT Bold
+logo color 4472ff to 1912c2
+menu text Trebuchet MS Bold
