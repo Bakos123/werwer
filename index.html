@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Bako's Company</title>
+    </head>
+    <body>
+        <div id="header">
+            <nav>
+                <a href="#" class="element" data-mt-duration="300" alt="">Home</a>
+                <a href="#" class="element" data-mt-duration="300" alt="">O mnie</a>
+                <a href="#" class="element" data-mt-duration="300" alt="">Portfolio</a>
+                <a href="#" class="element" data-mt-duration="300" alt="">Kontakt</a>
+            </nav>
+        </div>
+        <div id="info">
+            <img src="./image/setting.png" alt="ustawienia" />
+            <img src="./image/cloud.png" alt="chmurka" />
+            <img src="./image/javascript.png" alt="javascript" />
+        </div>
+            <div class="info-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pellentesque at velit elit. Vivamus eget bibendum sapien,
+                quis maximus velit. Cras sit amet feugiat lacus, at accumsan sem.
+                Curabitur ultrices dictum quam in malesuada.
+            </div>
+        <div id="aboutus">
+            O mnie<br>
+            <img src="./image/profilpicture.png" class="aboutus-picture" alt="zdjęcie profilowe" /><br>
+            Szymon 'Bako' Kołodziejczyk<br>
+            Junior Web Developer<br><br>
+            <div class="aboutus-text-left">
+                <ul>Zainteresowania:<br>
+                        <li><span>-></span> grafika</li>
+                        <li><span>-></span> programowanie </li>
+                        <li><span>-></span> ratownictwo medyczne</li>
+                        <li><span>-></span> motoryzacja</li>
+                </ul>
+            </div>
+            <div class="aboutus-text-right">
+                <ul>Postęp programistyczny:<br>
+                        <li>html<span><-</span></li>
+                        <li>css<span><-</span></li>
+                        <li>javascript<span><-</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="portfolio">
+            <span>Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Ut rhoncus eros vitae quam congue, quis 
+            lacinia nisi tristique. Donec tincidunt velit risus, 
+            id porttitor neque feugiat sit amet. Integer euismod 
+            nulla non metus ullamcorper, nec molestie velit 
+            sagittis. Duis aliquam tellus sed feugiat interdum. 
+            Duis consequat lacus risus, eu suscipit est iaculis ac. P
+            ellentesque convallis augue ante, vitae efficitur lacus 
+            laoreet consectetur. Fusce dapibus erat nec ipsum 
+            porttitor ornare. Mauris quis lacinia metus. Sed aliquam 
+            dictum congue. Maecenas luctus, quam posuere 
+            aliquet sodales, massa lorem dapibus risus, a vulputate 
+            elit justo eget velit. Donec mollis condimentum mi, 
+            sed convallis sapien interdum at.</span><br><br><br>
+            Portfolio<br><br><br>
+
+            <div id="slider">
+                <div id="top-row">
+                  <img class="arrow arrow-left" id="arrow-left" src="./image/arrow-left.png" alt="" />
+                  <div id="slides-container">
+                    <img id="slide1" class="slide active" src="./image/portfolio1.png"/>
+                    <img id="slide2" class="slide" src="./image/portfolio2.png" />
+                    <img id="slide3" class="slide" src="./image/portfolio3.png" />
+                  </div>
+        
+                  <img class="arrow arrow-right" id="arrow-right" src="./image/arrow-right.png" alt="" />
+                </div>
+                <div id="bottom-row">
+                  <div id="dots">
+                    <div id="dot1" class="dot"></div>
+                    <div id="dot2" class="dot"></div>
+                    <div id="dot3" class="dot"></div>
+                  </div>
+                </div>
+              </div> 
+        </div>
+
+        <div id="contact">
+            <form action="mailto:e-mail" method="post" enctype="text/plain">
+                <div>
+                    <table>
+                        <tr>
+                            <td>Imię:</td><td><input type="text" name="imię"></td>
+                        </tr>
+                        <tr>
+                            <td>Twój mail:</td><td><input type="text" name="Twój mail"></td>
+                        </tr>
+                        <tr>
+                            Napisz do mnie email!<br>
+                            <textarea name="quesion" cols="35" rows="3">Treść pytania</textarea>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: center">
+                                <input type="submit" value="Wyślij">
+                                <input type="reset" value="Wyczyść">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </form>
+            <span>Copyright 2022 Bako's Company</span>
+            <a href="https://facebook.com/"><img src="./image/facebook.png" class="contact-media" alt="facebook" /></a>
+            <a href="https://instagram.com/"><img src="./image/instagram.png" class="contact-media" alt="instagram" /></a>
+            <a href="https://twitter.pl/"><img src="./image/twitter.png" class="contact-media" alt="twitter" /></a>
+        </div>
+        <script src="slider.js"></script>
+    </body>
+</html>

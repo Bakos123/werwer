@@ -1,0 +1,169 @@
+html,
+body {
+    @import url(https://pl.allfont.net/allfont.css?fonts=txt);
+    font-family: 'Txt', Trebuchet MS;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(20, 20, 20);
+    color: rgb(255, 255, 255);
+}
+/* header */
+#header {
+    background-image: url(./image/background-logo.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+}
+/* menu */
+nav {
+    top: 50px;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(20, 20, 20);
+    font-size: 20px;
+    padding: 10px;    
+    text-align: center;
+    
+}
+nav a {
+    margin: 0px 50px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: "Trebuchet MS";
+    color: rgb(255, 255, 255);
+}
+nav a:hover {
+    text-decoration: overline;
+}
+/* info */
+#info {
+    height: 350px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#info img {
+    margin: auto;
+}
+.info-text {
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 100px;
+    margin: 0px 100px 0px 100px;
+}
+/* about us */
+#aboutus {
+    background-image: url(./image/background-info.png);
+    background-size: cover;
+    background-position: center;
+    height: 850px;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 60px;
+    line-height: 50px;
+    margin: auto;
+    font-weight: bold;
+}
+#aboutus span {
+    color:rgb(129, 8, 215);
+}
+.aboutus-text-left{
+    margin: 0px 0px;
+    float: left;
+    text-align: left;
+    font-size: 35px;
+}
+.aboutus-text-left ul {
+    list-style: none;
+}
+.aboutus-text-right {
+    margin: 0px 30px;
+    float: right;
+    text-align: right;
+    font-size: 35px;
+}
+.aboutus-text-right ul {
+    list-style: none;
+}
+.aboutus-picture {
+    padding: 50px 0px;
+}
+/* portfolio */
+#portfolio {
+    height: 720px auto;
+    text-align: center;
+    font-size: 40px;
+    margin: 60px 200px 10px 200px;
+    font-weight: bold;
+}
+#portfolio span {
+    font-size: 30px;
+}
+/* portfolio - slider */
+#slides-container img {
+    width: 800px;
+}
+#slider #top-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#slider .slide {
+    display: none;
+}
+#slider .slide.active {
+    display: block;
+} 
+#slider #bottom-row {
+    display: flex;
+    justify-content: center;
+}
+#dots {
+    margin-top: 10px;
+    display: inline-flex;
+    padding: 5px 10px;
+    padding-right: 0;
+    border-radius: 2px;
+    padding-bottom: 80px;
+}
+#dots .dot {
+    width: 12px;
+    height: 12px;
+    background-color: #3ec2ff;
+    display: inline-block;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.arrow {
+    margin: 0 5px;
+    width: 7%;
+}
+.arrow,
+.dot {
+    cursor: pointer;
+}
+/* footer */
+#contact {
+    background-image: url(./image/background-footer.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 250px auto;
+    font-size: 20px;   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#contact span {
+}
+.contact-media {
+    width: 50px;
+}
+form {
+    font-size: 17px;
+    display: flex;
+    margin: 10px 0px; 
+}
