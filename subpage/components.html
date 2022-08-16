@@ -4,9 +4,8 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./style.css" />
-        <title>x-komp.pl - Sklep komputerowy</title>
+        <link rel="stylesheet" href="./style/style.css" />
+        <title>x-komp.pl - Podzespoły komputerowe</title>
     </head>
     <body>
         <header>  
@@ -17,142 +16,189 @@
             </div>
 
             <div class="header_find">
-                <input type="text" value=" Czego szukasz?">
+                <input type="text" placeholder="Czego szukasz?">
                     <form action="#">
-                        <input type="image" src="/img/header/find.png" alt="szukaj">
+                        <input type="image" src="./img/index_all/find.png" alt="szukaj">
                     </form>
             </div>
 
             <ul class="header_menu">
                 <li class="menuItem">
-                    <a href="#"><img class="support" src="/img/header/support.png" alt="">Pomoc</a>
+                    <a href="./help.html"><img class="support" src="./img/index_all/support.png" alt="">Pomoc</a>
                 </li>
                 <li class="menuItem">
-                    <a href="#"><img class="favourite" src="/img/header/favourite.png" alt="">Ulubione</a>
+                    <a href="./favourite.html"><img class="favourite" src="./img/index_all/favourite.png" alt="">Ulubione</a>
                 </li>
                 <li class="menuItem">
-                    <a href="#"><img class="user" src="/img/header/user.png" alt="">Konto</a>
+                    <a href="./account.html"><img class="user" src="./img/index_all/user.png" alt="">Konto</a>
                 </li>
                 <li class="menuItem">
-                    <a href="#"><img class="cart" src="/img/header/shopping-cart.png" alt="">Koszyk</a>
+                    <a href="./cart.html"><img class="cart" src="./img/index_all/shopping-cart.png" alt="">Koszyk</a>
                 </li>
             </ul>
         </header>
 
         <nav>
             <li>
-                <a href="/subpage/computers/index.html"><img src="/img/header/computer.png" alt="">Laptopy i<br>komputery</a>
+                <a href="./computers.html"><img src="./img/index_all/computer.png" alt="">Laptopy i<br>komputery</a>
                 <ol>
-                    <ul><a href="#">Laptopy</a></ul>
-                    <ul><a href="#">Laptopy biznesowe</a></ul>
-                    <ul><a href="#">Komputery stacjonarne</a></ul>
-                    <ul><a href="#">Laptopy 2 w 1</a></ul>
-                    <ul><a href="#">Tablety</a></ul>
-                    <ul><a href="#">Monitory</a></ul>
-                    <ul><a href="#">Oprogramowanie</a></ul>
+                        <ul><a href="./computers/laptops.html">Laptopy</a></ul>
+                        <ul><a href="./computers/laptops_business.html">Laptopy biznesowe</a></ul>
+                        <ul><a href="./computers/computers.html">Komputery stacjonarne</a></ul>
+                        <ul><a href="./computers/laptops_2_in_1.html">Laptopy 2 w 1</a></ul>
+                        <ul><a href="./computers/tablets.html">Tablety</a></ul>
+                        <ul><a href="./computers/monitors.html">Monitory</a></ul>
+                        <ul><a href="./computers/software.html">Oprogramowanie</a></ul>
                 </ol>
             </li>
             <li>
-                <a href="/subpage/phone/index.html"><img src="/img/header/smartphone.png" alt="">Smartfony i<br>smartwatch</a>
+                <a href="./phone.html"><img src="./img/index_all/smartphone.png" alt="">Smartfony i<br>smartwatch</a>
                 <ol>
-                <ul><a href="#">Smartfony i telefony</a></ul>
-                <ul><a href="#">Tablety</a></ul>
-                <ul><a href="#">Inteligentne zegarki</a></ul>
-                <ul><a href="#">Czytniki EBOOK</a></ul>
-                <ul><a href="#">Ochrona na telefony</a></ul>
-                <ul><a href="#">Ładowarki</a></ul>
+                    <ul><a href="./phone/smartphone.html">Smartfony i telefony</a></ul>
+                    <ul><a href="./computers/tablets.html">Tablety</a></ul>
+                    <ul><a href="./phone/smartwatch.html">Inteligentne zegarki</a></ul>
+                    <ul><a href="./phone/ebook.html">Czytniki EBOOK</a></ul>
+                    <ul><a href="./phone/software_phones.html">Ochrona na telefony</a></ul>
+                    <ul><a href="./phone/charger.html">Ładowarki</a></ul>
                 </ol>
             </li>
             <li>
-                <a href="/subpage/gaming/index.html"><img src="/img/header/console.png" alt="">Gaming i<br>streaming</a>
+                <a href="./gaming.html"><img src="./img/index_all/console.png" alt="">Gaming i<br>streaming</a>
                 <ol>
-                <ul><a href="#">Laptopy do gier</a></ul>
-                <ul><a href="#">Konsole</a></ul>
-                <ul><a href="#">Akcesoria do konsol</a></ul>
-                <ul><a href="#">Myszki i klawiatury</a></ul>
-                <ul><a href="#">Gry</a></ul>
-                <ul><a href="#">VR</a></ul>
-                <ul><a href="#">Monitory</a></ul>
+                    <ul><a href="./gaming/laptops_game.html">Laptopy do gier</a></ul>
+                    <ul><a href="./gaming/consol.html">Konsole</a></ul>
+                    <ul><a href="./gaming/accesories_consol.html">Akcesoria do konsol</a></ul>
+                    <ul><a href="./gaming/mouse_keyboard.html">Myszki i klawiatury</a></ul>
+                    <ul><a href="./gaming/games.html">Gry</a></ul>
+                    <ul><a href="./gaming/vr.html">VR</a></ul>
+                    <ul><a href="./computers/monitors.html">Monitory</a></ul>
                 </ol>
             </li>
             <li>
-                <a class="nav_tv" href="/subpage/tv/index.html"><img src="/img/header/television.png" alt="">TV i<br>audio</a>
+                <a class="nav_tv" href="./tv.html"><img src="./img/index_all/television.png" alt="">TV i<br>audio</a>
                 <ol>
-                <ul><a href="#">Telewizory</a></ul>
-                <ul><a href="#">Soundbary</a></ul>
-                <ul><a href="#">Kino domowe</a></ul>
-                <ul><a href="#">Projektory i ekrany</a></ul>
-                <ul><a href="#">Hi-Fi audio</a></ul>
-                <ul><a href="#">Głośniki</a></ul>
-                <ul><a href="#">Power Audio</a></ul>
+                    <ul><a href="./tv/televisors.html">Telewizory</a></ul>
+                    <ul><a href="./tv/soundbar.html">Soundbary</a></ul>
+                    <ul><a href="./tv/home_cinema.html">Kino domowe</a></ul>
+                    <ul><a href="./tv/projectors_screens.html">Projektory i ekrany</a></ul>
+                    <ul><a href="./tv/hifi.html">Hi-Fi audio</a></ul>
+                    <ul><a href="./tv/loudspeakers.html">Głośniki</a></ul>
+                    <ul><a href="./tv/poweraudio.html">Power Audio</a></ul>
                 </ol>
             </li>
             <li>
-                <a href="/subpage/componets/index.html"><img src="/img/header/cpu.png" alt="">Podzespoły<br>komputerowe</a>
+                <a href="./components.html"><img src="./img/index_all/cpu.png" alt="">Podzespoły<br>komputerowe</a>
                 <ol>
-                <ul><a href="#">Dyski twarde</a></ul>
-                <ul><a href="#">Karty graficzne</a></ul>
-                <ul><a href="#">Procesory</a></ul>
-                <ul><a href="#">Płyty główne</a></ul>
-                <ul><a href="#">Obudowy komputerowe</a></ul>
-                <ul><a href="#">Pamięci RAM</a></ul>
-                <ul><a href="#">Zasilacze</a></ul>
-                <ul><a href="#">Chłodzenia</a></ul>
+                    <ul><a href="./components/hard_drive.html">Dyski twarde</a></ul>
+                    <ul><a href="./components/graphics_cards.html">Karty graficzne</a></ul>
+                    <ul><a href="./components/cpu.html">Procesory</a></ul>
+                    <ul><a href="./components/motherboard.html">Płyty główne</a></ul>
+                    <ul><a href="./components/computercase.html">Obudowy komputerowe</a></ul>
+                    <ul><a href="./components/ram.html">Pamięci RAM</a></ul>
+                    <ul><a href="./components/power.html">Zasilacze</a></ul>
+                    <ul><a href="./components/coolingsystems.html">Chłodzenia</a></ul>
                 </ol>
             </li>
             <li>
-                <a href="/subpage/accesories/index.html"><img src="/img/header/headphones.png" alt="">Akcesoria</a>
+                <a href="./accesories.html"><img src="./img/index_all/headphones.png" alt="">Akcesoria</a>
+                <ol>
+                    <ul><a href="./components/hard_drive.html">Ładowarki</a></ul>
+                    <ul><a href="./components/hard_drive.html">Zasilacze</a></ul>
+                    <ul><a href="./components/hard_drive.html">Uchwyty samochodowe</a></ul>
+                    <ul><a href="./components/hard_drive.html">Ładowarki samochodowe</a></ul>
+                    <ul><a href="./components/hard_drive.html">Etui do telefonów</a></ul>
+                </ol>
             </li>
         </nav>
 
         <main>
             <section class="banner">
-                <img src="/img/main/banner.png">
+                <img src="./img/index_all/banners/banner.png">
             </section>
             <section class="strenghts">
-                <li class="strengtsItem"><img src="/img/main/delivery-truck.png" alt="">Transport</li>
-                <li class="strengtsItem"><img src="/img/main/repair-tools.png">Montaż</li>
-                <li class="strengtsItem"><img src="/img/main/consultation.png">Doradztwo</li>
-                <li class="strengtsItem"><img src="/img/main/insurance.png">Ubezpieczenie</li>
+                <li class="strengtsItem">
+                    <img src="./img/index_head/delivery-truck.png" alt="">Transport
+                </li>
+                <li class="strengtsItem">
+                    <img src="./img/index_head/repair-tools.png">Montaż
+                </li>
+                <li class="strengtsItem">
+                    <img src="./img/index_head/consultation.png">Doradztwo
+                </li>
+                <li class="strengtsItem">
+                    <img src="./img/index_head/insurance.png">Ubezpieczenie
+                </li>
             </section>
         </main>
 
         <div class="product">
             <h2>Gorąca wyprzedaż</h2>
                 <section class="hot_sell">
-                    <a href=""><img src="/img/content/oneplus.jpg" alt="Zdjęcie produktu">Smartfon ONEPLUS<br>128gb<br><span>3199,00 zł</span></a>
-                    <a href=""><img src="/img/content/samsungzflip4.jpg" alt="Zdjęcie produktu">Smartfon SAMSUNG<br>Galaxy Z flip 4 128gb<br><span>5399,00 zł</span></a>
-                    <a href=""><img src="/img/content/oneplus.jpg" alt="Zdjęcie produktu">Smartfon ONEPLUS<br>128gb<br><span>3199,00 zł</span></a>
-                    <a href=""><img src="/img/content/samsungzflip4.jpg" alt="Zdjęcie produktu">Smartfon SAMSUNG<br>Galaxy Z flip 4 128gb<br><span>5399,00 zł</span></a>
-                    <a href=""><img src="/img/content/oneplus.jpg" alt="Zdjęcie produktu">Smartfon ONEPLUS<br>128gb<br><span>3199,00 zł</span></a>
-                    <a href=""><img src="/img/content/samsungzflip4.jpg" alt="Zdjęcie produktu">Smartfon SAMSUNG<br>Galaxy Z flip 4 128gb<br><span>5399,00 zł</span></a>
-                    <a href=""><img src="/img/content/oneplus.jpg" alt="Zdjęcie produktu">Smartfon ONEPLUS<br>128gb<br><span>3199,00</span></a>
-                    <a href=""><img src="/img/content/samsungzflip4.jpg" alt="Zdjęcie produktu">Smartfon SAMSUNG<br>Galaxy Z flip 4 128gb<br><span>5399,00 zł</span></a>
+                    <a href="">
+                        <img src="./img/products/oneplus.jpg" alt="Zdjęcie produktu">Smartfon ONEPLUS<br>128gb<br><span>3199,00 zł</span>
+                    </a>
+                    <a href="">
+                        <img src="./img/products/samsungzflip4.jpg" alt="Zdjęcie produktu">Smartfon SAMSUNG<br>Galaxy Z flip 4 128gb<br><span>5399,00 zł</span>
+                    </a>
+                    <a href="">
+                        <img src="./img/products/oneplus.jpg" alt="Zdjęcie produktu">Smartfon ONEPLUS<br>128gb<br><span>3199,00 zł</span>
+                    </a>
+                    <a href="">
+                        <img src="./img/products/samsungzflip4.jpg" alt="Zdjęcie produktu">Smartfon SAMSUNG<br>Galaxy Z flip 4 128gb<br><span>5399,00 zł</span>
+                    </a>
+                    <a href="">
+                        <img src="./img/products/oneplus.jpg" alt="Zdjęcie produktu">Smartfon ONEPLUS<br>128gb<br><span>3199,00 zł</span>
+                    </a>
+                    <a href="">
+                        <img src="./img/products/samsungzflip4.jpg" alt="Zdjęcie produktu">Smartfon SAMSUNG<br>Galaxy Z flip 4 128gb<br><span>5399,00 zł</span>
+                    </a>
+                    <a href="">
+                        <img src="./img/products/oneplus.jpg" alt="Zdjęcie produktu">Smartfon ONEPLUS<br>128gb<br><span>3199,00</span>
+                    </a>
+                    <a href="">
+                        <img src="./img/products/samsungzflip4.jpg" alt="Zdjęcie produktu">Smartfon SAMSUNG<br>Galaxy Z flip 4 128gb<br><span>5399,00 zł</span>
+                    </a>
                 </section>
 
                 <h2>Hity miesiąca</h2>
                 <section class="month_hit">
-                    <a href=""><img src="/img/content/oneplus.jpg" alt="Zdjęcie produktu">Smartfon ONEPLUS<br>128gb<br><span>3199,00 zł</span></a>
-                    <a href=""><img src="/img/content/samsungzflip4.jpg" alt="Zdjęcie produktu">Smartfon SAMSUNG<br>Galaxy Z flip 4 128gb<br><span>5399,00 zł</span></a>
-                    <a href=""><img src="/img/content/oneplus.jpg" alt="Zdjęcie produktu">Smartfon ONEPLUS<br>128gb<br><span>3199,00 zł</span></a>
-                    <a href=""><img src="/img/content/samsungzflip4.jpg" alt="Zdjęcie produktu">Smartfon SAMSUNG<br>Galaxy Z flip 4 128gb<br><span>5399,00 zł</span></a>
-                    <a href=""><img src="/img/content/oneplus.jpg" alt="Zdjęcie produktu">Smartfon ONEPLUS<br>128gb<br><span>3199,00 zł</span></a>
-                    <a href=""><img src="/img/content/samsungzflip4.jpg" alt="Zdjęcie produktu">Smartfon SAMSUNG<br>Galaxy Z flip 4 128gb<br><span>5399,00 zł</span></a>
-                    <a href=""><img src="/img/content/oneplus.jpg" alt="Zdjęcie produktu">Smartfon ONEPLUS<br>128gb<br><span>3199,00 zł</span></a>
-                    <a href=""><img src="/img/content/samsungzflip4.jpg" alt="Zdjęcie produktu">Smartfon SAMSUNG<br>Galaxy Z flip 4 128gb<br><span>5399,00 zł</span></a>
+                    <a href="">
+                        <img src="./img/products/oneplus.jpg" alt="Zdjęcie produktu">Smartfon ONEPLUS<br>128gb<br><span>3199,00 zł</span>
+                    </a>
+                    <a href="">
+                        <img src="./img/products/samsungzflip4.jpg" alt="Zdjęcie produktu">Smartfon SAMSUNG<br>Galaxy Z flip 4 128gb<br><span>5399,00 zł</span>
+                    </a>
+                    <a href="">
+                        <img src="./img/products/oneplus.jpg" alt="Zdjęcie produktu">Smartfon ONEPLUS<br>128gb<br><span>3199,00 zł</span>
+                    </a>
+                    <a href="">
+                        <img src="./img/products/samsungzflip4.jpg" alt="Zdjęcie produktu">Smartfon SAMSUNG<br>Galaxy Z flip 4 128gb<br><span>5399,00 zł</span>
+                    </a>
+                    <a href="">
+                        <img src="./img/products/oneplus.jpg" alt="Zdjęcie produktu">Smartfon ONEPLUS<br>128gb<br><span>3199,00 zł</span>
+                    </a>
+                    <a href="">
+                        <img src="./img/products/samsungzflip4.jpg" alt="Zdjęcie produktu">Smartfon SAMSUNG<br>Galaxy Z flip 4 128gb<br><span>5399,00 zł</span>
+                    </a>
+                    <a href="">
+                        <img src="./img/products/oneplus.jpg" alt="Zdjęcie produktu">Smartfon ONEPLUS<br>128gb<br><span>3199,00 zł</span>
+                    </a>
+                    <a href="">
+                        <img src="./img/products/samsungzflip4.jpg" alt="Zdjęcie produktu">Smartfon SAMSUNG<br>Galaxy Z flip 4 128gb<br><span>5399,00 zł</span>
+                    </a>
                 </section>
         </div>
 
         <footer>
             <h3>Strefa marek</h3>
             <section class="company">
-                <a href="#"><img src="/img/logo_company/bosch.png" alt="bosch"></a>
-                <a href="#"><img src="/img/logo_company/tefal.png" alt="tefal"></a>
-                <a href="#"><img src="/img/logo_company/xiaomi.png" alt="xiaomi"></a>
-                <a href="#"><img src="/img/logo_company/siemens.png" alt="siemens"></a>
-                <a href="#"><img src="/img/logo_company/braun.png" alt="braun"></a>
-                <a href="#"><img src="/img/logo_company/philips.png" alt="philips"></a>
-                <a href="#"><img src="/img/logo_company/samsung.png" alt="samsung"></a>
+                <a href="#"><img src="./img/footer_all/bosch.png" alt="bosch"></a>
+                <a href="#"><img src="./img/footer_all/tefal.png" alt="tefal"></a>
+                <a href="#"><img src="./img/footer_all/xiaomi.png" alt="xiaomi"></a>
+                <a href="#"><img src="./img/footer_all/siemens.png" alt="siemens"></a>
+                <a href="#"><img src="./img/footer_all/braun.png" alt="braun"></a>
+                <a href="#"><img src="./img/footer_all/philips.png" alt="philips"></a>
+                <a href="#"><img src="./img/footer_all/samsung.png" alt="samsung"></a>
             </section>
 
             <section class="footer_info">
@@ -189,7 +235,7 @@
                     <a href="#"><li>Łódź</li></a>
                 </ul>
             </section>
-            <img src="/img/footer/footer_logo.png">
+            <img src="./img/footer_all/footer_logo.png">
         </footer>
     </body>
 </html>
