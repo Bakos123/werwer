@@ -1,1 +1,1 @@
-https://app.netlify.com/sites/x-komp/overview
+https://x-komp.netlify.app
