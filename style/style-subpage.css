@@ -1,9 +1,6 @@
-:root {
-    --color-text: #000;
-}
 a {
     text-decoration: none;
-    color: var(--color-text)
+    color: #000;
 }
 * {
     box-sizing: border-box;
@@ -15,6 +12,7 @@ body {
     background: #f4f4f4;
     font-family: 'Trebuchet MS';
 }
+/* header */
 header {
     display: flex;
     align-items: center;
@@ -77,7 +75,7 @@ input[type="image"] {
 .menuItem .support {
     transform: translate(-1px, 0px);
 }
-/* NAV */
+/* nav */
 nav {
     display: flex;
     width: 100%;
@@ -121,6 +119,7 @@ nav > li > ol > ul > a:hover {
 nav img {
     padding-right: 5px;
 }
+/* main */
 main {
     height: 560px auto;
     width: 100%;
@@ -133,67 +132,36 @@ main {
 .banner img {
     border-radius: 50px;
 }
-.strenghts {
+/* content */
 
-    text-align: center;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    line-height: 90px;
-    font-size: 20px;
-    flex-wrap: wrap;
-    margin: 0px 100px;
-}
-.strenghtsItem {
-    width: 210px;
-}
-.strenghts img {
-    margin: 0px 50px;
-    display: block;
-    width: 120px;
-}
-.product h2 {
-    font-size: 20px;
-}
-.product {
-    background-color: rgb(255, 255, 255);;
-    height: auto;
-    width: 100%;
-    padding: 20px 0;
-    text-align: center;
-}
-.hot_sell span {
-    color: rgb(255, 0, 0);
-    font-weight: bold;
-    line-height: 35px;
-}
-.month_hit span {
-    font-weight: bold;
-    line-height: 35px;
-}
-.hot_sell,
-.month_hit {
+.content {
     background-color: #fff;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
     margin: 20px 80px;
+    display: flex;
 }
-.hot_sell a,
-.month_hit a {
-    display: block;
-    text-align: center;
+.leftmenu {
+    flex-direction: column;
+    width: 20%;
+}
+.products {
+    flex-directon: column;
+    width: 80%;
+}
+.products li {
+    width: 900px;
+    flex-direction: row;
+    margin: 24px 0px;
+}
+/* .hot_sell a {
     width: 300px;
     margin: 20px 0px;
     padding: 12px 0px;
 }
-.hot_sell a:hover,
-.month_hit a:hover {
+.hot_sell a:hover {
     border: 1px solid #cfbebe;
     border-radius: 15px;
-}
+} */
+/* footer */
 footer h3 {
     font-size: 20px;
 }
